@@ -1,12 +1,12 @@
 const readline = require('readline');
 
 const questions = {
-  0: "What's your name? Nicknames are also acceptable :)",
-  1: "What's an activity you like doing?",
+  0: "What do your bestfriends call you?",
+  1: "How do you spend your free time?",
   2: "What do you listen to while doing that?",
   3: "Which meal is your favourite (eg: dinner, brunch, etc.)",
   4: "What's your favourite thing to eat for that meal?",
-  5: "Which sport is your absolute favourite?",
+  5: "Which sport is your absolute favourite to play?",
   6: "What is your superpower? In a few words, tell us what you are amazing at!"
 };
 
