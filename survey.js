@@ -28,16 +28,16 @@ const rl = readline.createInterface({
 
 let i = 0;
 
-const question = function () {
+const question = function() {
   if (i < 7) {
     rl.question(`${questions[i]}\n`, (answer) => {
       ansObj[i] = answer;
       i++;
-      console.log()
-      question()
+      console.log();
+      question();
     });
   } else {
-    rl.close()
+    rl.close();
     console.log("Your New Profile:");
     setTimeout(() => console.log(`
     ${ansObj[0]} likes ${ansObj[1]} while listening to ${ansObj[2]}. 
@@ -46,7 +46,7 @@ const question = function () {
     When ${ansObj[0]} was asked their superpower they answered: ${ansObj[6]}
   `), 1500);
   }
-}
+};
 
-question()
+question();
 
