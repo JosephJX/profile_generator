@@ -41,7 +41,7 @@ const question = function() {
     console.log("Your New Profile:");
     setTimeout(() => console.log(`
     ${ansObj[0]} likes ${ansObj[1]} while listening to ${ansObj[2]}. 
-    ${ansObj[0]} likes eating ${ansObj[4]} for their favorite meal ${ansObj[3]}. 
+    ${ansObj[0]} likes eating ${ansObj[4]} for their favorite meal which is ${ansObj[3]}. 
     ${ansObj[0]}'s absolute favorite sport is ${ansObj[5]}.
     When ${ansObj[0]} was asked their superpower they answered: ${ansObj[6]}
   `), 1500);
